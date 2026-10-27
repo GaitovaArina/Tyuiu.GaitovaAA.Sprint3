@@ -10,9 +10,9 @@ namespace Tyuiu.GaitovaAA.Sprint3.Task0.V10.Lib
            
             for (int i = startValue; i <= stopValue; i++)
             {
-                multiplySeries *= Math.Pow(300.0 / (i + Math.Pow(value, 2)), i);
+                multiplySeries *= Math.Pow(300.0 / (i + Math.Pow(value, i)), i);
             }
-            return Math.Pow(multiplySeries, 1);
+            return multiplySeries;
         }
     }
 }
