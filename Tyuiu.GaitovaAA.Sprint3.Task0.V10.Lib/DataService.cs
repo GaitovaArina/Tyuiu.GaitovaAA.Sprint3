@@ -12,7 +12,7 @@ namespace Tyuiu.GaitovaAA.Sprint3.Task0.V10.Lib
             {
                 multiplySeries *= Math.Pow(300.0 / (i + Math.Pow(value, i)), i);
             }
-            return multiplySeries;
+            return Math.Round(multiplySeries, 3);
         }
     }
 }
