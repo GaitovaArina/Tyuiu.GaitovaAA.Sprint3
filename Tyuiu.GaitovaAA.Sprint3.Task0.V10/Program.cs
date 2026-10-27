@@ -24,7 +24,7 @@ namespace Tyuiu.GaitovaAA.Sprint3.Task0.V10
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int value = 5;
+            int value = 5; 
             int startValue = 1;
             int stopValue = 5;
 
