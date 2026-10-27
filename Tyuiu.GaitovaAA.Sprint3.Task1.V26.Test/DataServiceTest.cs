@@ -15,9 +15,9 @@ namespace Tyuiu.GaitovaAA.Sprint3.Task1.V26.Test
             int stopValue = 8;
 
             double res = ds.GetSumSeries(n, startValue, stopValue);
-            double wait = 1.4999999999901696;
+            double wait = 1.5;
 
-            Assert.AreEqual(wait, res, 0.0000000001);
+            Assert.AreEqual(wait, res);
         }
     }
 }

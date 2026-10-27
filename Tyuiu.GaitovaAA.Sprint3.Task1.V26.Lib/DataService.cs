@@ -15,7 +15,7 @@ namespace Tyuiu.GaitovaAA.Sprint3.Task1.V26.Lib
                 k++;
             }
 
-            return sumSeries;
+            return Math.Round(sumSeries, 1);
         }
     }
 }
