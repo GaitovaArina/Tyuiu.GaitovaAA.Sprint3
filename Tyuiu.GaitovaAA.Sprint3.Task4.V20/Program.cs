@@ -6,7 +6,7 @@ namespace Tyuiu.GaitovaAA.Sprint3.Task4.V20
     {
         static void Main(string[] args)
         {
-            DataService ds = new DataService();
+            DataService ds = new DataService(); 
 
             Console.Title = "Спринт #3 | Выполнила: Гаитова А. А. | Группа: ПКТб-26-1";
             Console.WriteLine("***************************************************************************");
